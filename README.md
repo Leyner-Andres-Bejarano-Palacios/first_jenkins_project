@@ -35,4 +35,22 @@ As usual, for maximal portability I will be using docker, the docker image I wil
 
 ### step 4 now a litte more meta, we will use this git repository for our first pipeline.
 
-1. following this guide , let's add the java jenskisfile here
+1. following this guide , let's add the java jenskisfile here (in this repository)
+
+2. now Multibranch Pipeline > ok > Source Code Management and just put this
+
+![first jenkins config!](img/firstjenkinsconfig.png "firstjenkinsconfig")
+
+3. succeful run, but I was expecting to see the result of the maven version command.
+
+![jenkins First Run!](img/jenkinsFirstRun.png "jenkins First Run")
+
+4. The pending task in this project is to read what is pipeline exactly but before of that letst run the next step "Running multiple steps". 
+
+so first lets change the jenkinsfile
+
+![change In Jenkins File!](img/changeInJenkinsFile.pngg "changeInJenkinsFile")
+
+and run it again
+
+
