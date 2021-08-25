@@ -33,3 +33,6 @@ As usual, for maximal portability I will be using docker, the docker image I wil
 
 ![Jenkins UI in english!](img/JenkinsUIinenglish.png "JenkinsUIinenglish")
 
+### step 4 now a litte more meta, we will use this git repository for our first pipeline.
+
+1. following this guide , let's add the java jenskisfile here
