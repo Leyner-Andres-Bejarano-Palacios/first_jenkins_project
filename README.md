@@ -45,12 +45,51 @@ As usual, for maximal portability I will be using docker, the docker image I wil
 
 ![jenkins First Run!](img/jenkinsFirstRun.png "jenkins First Run")
 
-4. The pending task in this project is to read what is pipeline exactly but before of that letst run the next step "Running multiple steps". 
+4. Let's run the next step "Running multiple steps". 
 
 so first lets change the jenkinsfile
 
-![change In Jenkins File!](img/changeInJenkinsFile.pngg "changeInJenkinsFile")
+![change In Jenkins File!](img/changeInJenkinsFile.png "changeInJenkinsFile")
 
 and run it again
+
+# I will skip the credential page by now, I am developer and where I am currently working I am pretty sure that I wont need to do this myself
+
+1. [guide](https://www.jenkins.io/doc/book/using/using-credentials/).
+
+# To-Do
+
+1. My next experiments
+    1.  [these](https://www.jenkins.io/doc/book/pipeline/syntax/#agent).
+
+2.  jenkinsfile using docker
+    1.  [docs](https://www.jenkins.io/doc/book/pipeline/docker/).
+
+3.  using libraries to DRY (Dont repeat yourself)
+    1.  [docs](https://www.jenkins.io/doc/book/pipeline/shared-libraries/).
+
+4.  automating best practices
+    1. The best practices in jenkins [docs](https://www.jenkins.io/doc/book/pipeline/pipeline-best-practices/).
+
+5.  multibranch for multirepos (when I need several jenkinsfile depending of the branch)
+    1.  [docs](https://www.jenkins.io/doc/book/pipeline/multibranch/).  
+
+6. adding fingerprint to record a file (using shad-256 instead of MD5 checksum because MD% can be changed witout changing the MD5)
+
+    1. [example](https://www.youtube.com/watch?v=HvbbsoljLyg&t=300s).
+    2. proof that you should not use MD5 checksum [here](https://stackoverflow.com/questions/34446317/is-it-possible-to-keep-same-md5-checksum-of-a-file-after-content-modification).
+7. learning Apache Jmeter to practice this
+    1. jenkins docs Apache [Jmeter](https://www.jenkins.io/doc/book/using/using-jmeter-with-jenkins/).
+
+8. Why dont we use a distributed file system? (I mean sure it is not intended for small files but in this time it could probably works)
+    1.  [context](https://www.jenkins.io/doc/book/pipeline/scaling-pipeline/).
+
+9.  Open source contribution opportunity !!!!!!
+    1.  This [one](https://www.jenkins.io/doc/book/system-administration/backing-up/).
+
+
+just this for now ........
+
+
 
 
