@@ -9,7 +9,6 @@ As usual, for maximal portability I will be using docker, the docker image I wil
 ### step 1 
 
 1. [source](https://github.com/jenkinsci/docker/blob/master/README.md).
-2. 
 
 ### step 2 run image
 
@@ -29,7 +28,7 @@ As usual, for maximal portability I will be using docker, the docker image I wil
 
 2. this is my first time so let's install the suggested plugins
 
-3. I work in a multicultural enviroment so is important to keep everything in english, in this case, jenkins take language rom the google chrome language, to change the google chrome language follow this guide [guide](https://support.google.com/chrome/answer/173424).
+3. I work in a multicultural enviroment so is important to keep everything in english, in this case, jenkins language will be google chrome language, to change the google chrome language follow this guide [guide](https://support.google.com/chrome/answer/173424).
 
 ![Jenkins UI in english!](img/JenkinsUIinenglish.png "JenkinsUIinenglish")
 
@@ -53,9 +52,7 @@ so first lets change the jenkinsfile
 
 and run it again
 
-# I will skip the credential page by now, I am developer and where I am currently working I am pretty sure that I wont need to do this myself
 
-1. [guide](https://www.jenkins.io/doc/book/using/using-credentials/).
 
 # To-Do
 
